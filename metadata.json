@@ -1,0 +1,6 @@
+{
+  "name": "Feni House Rent",
+  "description": "Feni House Rent - Best Property & To-Let Rental Platform in Feni with bKash Instant Verification, Admin Dashboard, and Verified Owner Contacts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

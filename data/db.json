@@ -1,0 +1,167 @@
+{
+  "settings": {
+    "unlockFee": 100,
+    "bkashNumber": "01812-345678",
+    "adminPass": "123456",
+    "address": "ট্রাঙ্ক রোড, ফেনী সদর, ফেনী",
+    "helpPhone": "01812-345678",
+    "email": "support@fenihouserent.com",
+    "fbLink": "https://facebook.com",
+    "waLink": "01812345678",
+    "ytLink": "https://youtube.com",
+    "tgLink": "https://telegram.org"
+  },
+  "categories": [
+    "Family House",
+    "Apartment",
+    "Single Room",
+    "Bachelor Mess",
+    "Flat",
+    "Sublet / Room"
+  ],
+  "properties": [
+    {
+      "id": 101,
+      "title": "৩ রুমের আধুনিক ড্রয়িং ডাইনিং সহ ফ্যামিলি ফ্ল্যাট",
+      "category": "Family House",
+      "location": "Feni Sadar",
+      "exactAddress": "বাড়ি নং ১২, রোড ৩, মাস্টারপাড়া, ফেনী সদর",
+      "price": 14500,
+      "sqft": 1350,
+      "beds": 3,
+      "baths": 2,
+      "ownerName": "হাজী আবদুর রহমান",
+      "ownerPhone": "01711-234567",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "featured": true,
+      "createdAt": "2026-10-10"
+    },
+    {
+      "id": 102,
+      "title": "চাকরিজীবী বা ছাত্রদের জন্য খোলামেলা সিঙ্গেল রুম",
+      "category": "Single Room",
+      "location": "Daganbhuiyan",
+      "exactAddress": "কলেজ রোড, দাগনভূঞা বাজার, ফেনী",
+      "price": 5000,
+      "sqft": 420,
+      "beds": 1,
+      "baths": 1,
+      "ownerName": "মাওলানা কামরুল ইসলাম",
+      "ownerPhone": "01819-876543",
+      "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "featured": false,
+      "createdAt": "2026-10-09"
+    },
+    {
+      "id": 103,
+      "title": "লাক্সারি ৪ বেডরুম ও লিফট সুবিধা সহ প্রিমিয়াম অ্যাপার্টমেন্ট",
+      "category": "Apartment",
+      "location": "Feni Sadar",
+      "exactAddress": "শহীদ শহীদুল্লাহ কায়সার সড়ক, ফেনী সদর",
+      "price": 20000,
+      "sqft": 1800,
+      "beds": 4,
+      "baths": 3,
+      "ownerName": "ইঞ্জিনিয়ার মোশাররফ হোসেন",
+      "ownerPhone": "01715-998877",
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": false,
+      "featured": true,
+      "createdAt": "2026-10-08"
+    },
+    {
+      "id": 104,
+      "title": "২ বেডের নতুন টাইলস ও বারান্দা সহ সুন্দর ফ্ল্যাট",
+      "category": "Flat",
+      "location": "Sonagazi",
+      "exactAddress": "মেইন রোড সংলগ্ন, সোনাগাজী পৌরসভা",
+      "price": 8500,
+      "sqft": 950,
+      "beds": 2,
+      "baths": 2,
+      "ownerName": "জনাব আনোয়ারুল হক",
+      "ownerPhone": "01822-445566",
+      "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "featured": false,
+      "createdAt": "2026-10-07"
+    },
+    {
+      "id": 105,
+      "title": "কলেজ ও ভার্সিটি ছাত্রদের ব্যাচেলর মেস সিট ভাড়া",
+      "category": "Bachelor Mess",
+      "location": "Feni Sadar",
+      "exactAddress": "পাক্কা মাথায় সরকারি কলেজ সংলগ্ন, ফেনী সদর",
+      "price": 3200,
+      "sqft": 300,
+      "beds": 1,
+      "baths": 1,
+      "ownerName": "মো. তানভীরুল ইসলাম",
+      "ownerPhone": "01912-334455",
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "featured": false,
+      "createdAt": "2026-10-06"
+    },
+    {
+      "id": 106,
+      "title": "শান্তিপূর্ণ পরিবেশে সুন্দর নিরিবিলি ৩ রুমের বাসা",
+      "category": "Family House",
+      "location": "Chhagalnaiya",
+      "exactAddress": "থানা রোড, ছাগলনাইয়া, ফেনী",
+      "price": 11000,
+      "sqft": 1250,
+      "beds": 3,
+      "baths": 2,
+      "ownerName": "বেগম শামসুন্নাহার",
+      "ownerPhone": "01730-112233",
+      "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "featured": false,
+      "createdAt": "2026-10-05"
+    }
+  ],
+  "orders": [
+    {
+      "id": "PAY-1001",
+      "phone": "01823456789",
+      "method": "bKash",
+      "trxId": "9K88F4R2E",
+      "amount": 100,
+      "status": "Approved",
+      "date": "11 Oct 2026, 04:30 PM",
+      "timestamp": 1791730200000
+    }
+  ],
+  "reviews": [
+    {
+      "id": "REV-1",
+      "propertyId": 101,
+      "rating": 5,
+      "comment": "খুবই সুন্দর পরিবেশ এবং মালিক হাজী সাহেব খুবই অমায়িক মানুষ। পানি ও বিদ্যুৎ কোনো সমস্যা নেই।",
+      "author": "মো. রিয়াজ উদ্দিন",
+      "date": "১০ অক্টোবর ২০২৬",
+      "timestamp": 1791650000000
+    },
+    {
+      "id": "REV-2",
+      "propertyId": 101,
+      "rating": 5,
+      "comment": "মাস্টারপাড়া এলাকার অন্যতম সেরা বাড়ি। পরিবার নিয়ে থাকার জন্য দারুণ।",
+      "author": "ফারহানা ইয়াসমিন",
+      "date": "৯ অক্টোবর ২০২৬",
+      "timestamp": 1791550000000
+    },
+    {
+      "id": "REV-3",
+      "propertyId": 102,
+      "rating": 5,
+      "comment": "বাজারের খুব কাছে এবং পরিবেশ চমৎকার। চাকরিজীবীদের জন্য দারুণ উপযুক্ত।",
+      "author": "সাকিব হাসান",
+      "date": "৯ অক্টোবর ২০২৬",
+      "timestamp": 1791590000000
+    }
+  ]
+}

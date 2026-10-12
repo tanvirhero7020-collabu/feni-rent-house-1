@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    font-family: 'Hind Siliguri', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+  }
+  /* Eliminate mobile touch delay */
+  button, a, input, select, textarea {
+    touch-action: manipulation;
+  }
+  /* Prevent annoying iOS Safari zoom-in when focusing text fields */
+  @media screen and (max-width: 640px) {
+    input, select, textarea {
+      font-size: 16px !important;
+    }
+  }
+}
+
+/* Custom smooth scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #10b981;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #059669;
+}
+
+/* Hide scrollbar utility for mobile horizontal chip carousels */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Blur effect for locked owner details */
+.blur-locked-text {
+  filter: blur(4.5px);
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Safe touch feedback with hardware acceleration */
+button:active {
+  transform: scale(0.98);
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+  }
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-slideIn {
+  animation: slideIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-pulseGlow {
+  animation: pulseGlow 2s infinite;
+}
+
+/* GPU performance booster */
+.gpu-layer {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Image fade in once loaded */
+.img-smooth {
+  transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
